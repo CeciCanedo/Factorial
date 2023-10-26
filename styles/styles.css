@@ -1,0 +1,30 @@
+@import url('https://fonts.googleapis.com/css2?family=Grand+Hotel&family=Montserrat:wght@200&family=Varela+Round&display=swap');
+
+*{
+    font-family: 'Montserrat';
+    text-align: center;
+}
+
+.tarjeta{
+    display: flex;
+    flex-direction: row;
+    flex-flow: wrap;
+    border: 2px rgb(82, 193, 148) solid;
+    border-radius: 15px;
+    justify-content: space-around;
+    align-items: center;
+    margin-top: 10px;
+}
+
+.entrada{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+#btnFactorial{
+    background-color: white;
+    border: rgb(192, 255, 207) solid 2px;
+    margin-bottom: 15px;
+}
